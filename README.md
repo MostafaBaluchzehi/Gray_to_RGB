@@ -22,7 +22,7 @@ for img in img_files:
         myimg.save(rgb_data + "/" + img)
 ```
 
-### If you have a numpy array image, you can first convert it to PIL image
+### If you have a numpy array image, you can convert it to PIL image
 
 ```
 PIL_image = Image.fromarray(np.uint8(output)).convert('RGB')
