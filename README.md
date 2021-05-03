@@ -28,3 +28,8 @@ for img in img_files:
 PIL_image = Image.fromarray(np.uint8(output)).convert('RGB')
 ```
 
+### Convert image from PIL to openCV format
+
+```
+open_cv_image = numpy.array(pil_image) 
+```
